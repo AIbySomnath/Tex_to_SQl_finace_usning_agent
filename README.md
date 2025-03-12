@@ -56,14 +56,7 @@ To build and run the project using Docker, follow these steps:
 
 The project uses the Deepseek R1 model to translate natural language queries into SQL queries. This approach allows the AI agents to process user commands, generate appropriate SQL queries, execute them on the database, and return the results along with a summary.
 
-### Database Setup
 
-The database is set up using SQLAlchemy with a table named `receipts` containing the following columns:
-- `receipt_id`: INTEGER
-- `customer_name`: VARCHAR(16)
-- `price`: FLOAT
-- `tip`: FLOAT
-- `date`: STRING
 
 Sample data is inserted into the database to simulate financial transactions similar to L&T Finance data.
 
